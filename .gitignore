@@ -1,0 +1,105 @@
+############################
+# CLient
+############################
+# Logs
+client/logs
+client/*.log
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+client/pnpm-debug.log*
+client/lerna-debug.log*
+client/node_modules
+client/.DS_Store
+client/dist
+client/dist-ssr
+client/coverage
+client/*.local
+client//cypress/videos/
+client//cypress/screenshots/
+client/# Editor directories and files
+client/.vscode/*
+client/!.vscode/extensions.json
+client/.idea
+client/*.suo
+client/*.ntvs*
+*.njsproj
+client/*.sln
+client/*.sw?
+############################
+# Backend-strapi
+############################
+# OS X
+backend-strapi/.DS_Store
+backend-strapi/.AppleDouble
+backend-strapi/.LSOverride
+backend-strapi/Icon
+backend-strapi/.Spotlight-V100
+backend-strapi/.Trashes
+backend-strapi/._*
+# Linux
+backend-strapi/*~
+# Windows
+backend-strapi/Thumbs.db
+backend-strapi/ehthumbs.db
+backend-strapi/Desktop.ini
+backend-strapi/$RECYCLE.BIN/
+backend-strapi/*.cab
+backend-strapi/*.msi
+backend-strapi/*.msm
+backend-strapi/*.msp
+# Packages
+backend-strapi/*.7z
+backend-strapi/*.csv
+backend-strapi/*.dat
+backend-strapi/*.dmg
+backend-strapi/*.gz
+backend-strapi/*.iso
+backend-strapi/*.jar
+backend-strapi/*.rar
+backend-strapi/*.tar
+backend-strapi/*.zip
+backend-strapi/*.com
+backend-strapi/*.class
+backend-strapi/*.dll
+backend-strapi/*.exe
+backend-strapi/*.o
+backend-strapi/*.seed
+backend-strapi/*.so
+backend-strapi/*.swo
+backend-strapi/*.swp
+backend-strapi/*.swn
+backend-strapi/*.swm
+backend-strapi/*.out
+backend-strapi/*.pid
+# Logs and databases
+backend-strapi/.tmp
+backend-strapi/*.log
+backend-strapi/*.sql
+backend-strapi/*.sqlite
+backend-strapi/*.sqlite3
+# Misc.
+backend-strapi/*#
+backend-strapi/ssl
+backend-strapi/.idea
+backend-strapi/nbproject
+backend-strapi/public/uploads/*
+backend-strapi/!public/uploads/.gitkeep
+# Node.js
+backend-strapi/lib-cov
+backend-strapi/lcov.info
+backend-strapi/pids
+backend-strapi/logs
+backend-strapi/results
+backend-strapi/node_modules
+backend-strapi/.node_history
+# Tests
+backend-strapi/testApp
+backend-strapi/coverage
+# Strapi
+backend-strapi/.env
+backend-strapi/license.txt
+backend-strapi/exports
+backend-strapi/*.cache
+backend-strapi/build
+backend-strapi/.strapi-updater.json

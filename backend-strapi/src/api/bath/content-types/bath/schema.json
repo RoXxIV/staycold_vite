@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "baths",
+  "info": {
+    "singularName": "bath",
+    "pluralName": "baths",
+    "displayName": "bath",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "waterTemperature": {
+      "type": "decimal",
+      "required": true,
+      "min": 0.1,
+      "max": 50
+    },
+    "timeInWater": {
+      "type": "decimal",
+      "max": 1440,
+      "min": 1,
+      "required": true
+    },
+    "temperatureOutside": {
+      "type": "decimal",
+      "required": true,
+      "max": 60
+    },
+    "weather": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50
+    },
+    "wind": {
+      "type": "string",
+      "maxLength": 50
+    },
+    "recoveryTime": {
+      "min": 0.1,
+      "max": 1440,
+      "type": "decimal"
+    },
+    "afterdrop": {
+      "type": "string",
+      "maxLength": 50
+    },
+    "globalFeeling": {
+      "type": "string",
+      "maxLength": 50
+    },
+    "commentary": {
+      "type": "text",
+      "maxLength": 500
+    },
+    "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    }
+  }
+}
